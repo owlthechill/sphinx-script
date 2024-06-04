@@ -37,7 +37,7 @@ function SphinxMenu() {
                 <Col 
                   xs="12"
                   md="6"
-                  className="my-2"
+                  className="mb-3"
                 >
                   <Button color="success" block>
                     Encrypt
@@ -49,7 +49,7 @@ function SphinxMenu() {
                 <Col 
                   xs="12"
                   md="6"
-                  className="my-2"
+                  className="mb-3"
                 >
                   <Button color="danger" block>
                     Decrypt
