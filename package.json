@@ -1,0 +1,19 @@
+{
+  "name": "sphinx-script",
+  "version": "1.0.0",
+  "description": "A simple web application for encrypting text and data using different encryption types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server/index.js",
+    "client": "npm run start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2"
+  }
+}
